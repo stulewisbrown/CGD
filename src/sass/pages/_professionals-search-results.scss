@@ -1,0 +1,48 @@
+.search-results-tag {
+    padding: .25rem .5rem;
+    font-size: .7rem;
+    line-height: 1;
+    border-radius: .2rem;
+}
+
+.freelancer-rating--professionals {
+	margin-bottom:0;
+}
+
+.certification-container {
+	display:flex;
+	justify-content: flex-end;
+	 align-items: center;
+}
+.certificate {
+	width:50px;
+	margin-left:15px;
+
+}
+
+@include respond-below(xl) {
+  .freelancers-list-layout .freelancer-details-list ul {
+  	font-size:12px;
+  }
+}
+
+@include respond-below(lg) {
+  .freelancers-list-layout .freelancer-details {
+  	padding-top:10px;
+  	
+  }
+  .freelancers-list-layout .freelancer-overview {
+  	padding-bottom:0px;
+  }
+}
+
+@include respond-below(md) {
+  .certification-container {
+  	justify-content: flex-start;
+
+  }
+  .certificate {
+	  	margin-left:0;
+  	margin-right:10px;
+}
+}

@@ -1,0 +1,24 @@
+{
+  "name": "cloudguru",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-ruby-sass": "^4.0.0",
+    "gulp-sourcemaps": "^2.6.5"
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 2%"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

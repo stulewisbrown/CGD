@@ -1,0 +1,36 @@
+.about {
+    .image {
+        background: url(https://bootstrapmade.com/demo/themes/Bocor/assets/img/about.jpg) center center no-repeat;
+        background-size: cover;
+        min-height: 400px;
+    }
+}
+
+.section-bg {
+    background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);
+}
+
+.icon-box--home {
+    text-align: left;
+    .icon {
+        font-size: 48px !important;
+        float: left;
+        color: #fdc134 !important;
+    }
+    h4 {
+        margin: 5px 0 10px 60px;
+    }
+}
+
+
+@include respond-below(sm) {
+    .icon-box--home {
+        text-align: center;
+        h4 {
+            margin: 0;
+        }
+        .icon {
+            float: none;
+        }
+    }
+}
