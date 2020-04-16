@@ -56,8 +56,8 @@ function html() {
     .pipe(gulp.dest(out))
     .pipe(browserSync.reload({stream:true}));
 }
-// exports.html = gulp.series(images, html); <!--this doesnt make much sense, why is it doing images too?-->
-exports.html = html; //trying this instead
+ exports.html = gulp.series(images, html); //this doesnt make much sense, why is it doing images too?
+//exports.html = html; trying this instead
 
 // JavaScript processing
 function js() {

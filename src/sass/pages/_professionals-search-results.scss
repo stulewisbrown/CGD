@@ -20,13 +20,10 @@
 
 }
 
-@include respond-below(xl) {
-  .freelancers-list-layout .freelancer-details-list ul {
-  	font-size:12px;
-  }
-}
 
 @include respond-below(lg) {
+
+
   .freelancers-list-layout .freelancer-details {
   	padding-top:10px;
   	
