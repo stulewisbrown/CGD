@@ -20,6 +20,11 @@
 
 }
 
+.dropdown-menu.open {
+  max-height: 303px; 
+  overflow: hidden;
+}
+
 
 @include respond-below(lg) {
 

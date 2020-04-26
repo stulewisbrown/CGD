@@ -10,6 +10,7 @@
     .container--lg {
         max-width: 1200px!important;
     }
+
 }
 
 
@@ -22,3 +23,15 @@
         border-color: #98999C;
     }
 }
+
+@include respond-below(lg) {
+  .logo-custom__desktop {
+  	display:none;
+  }
+}
+@include respond-above(lg) {
+      .logo-custom__mobile {
+    	display:none;
+    }
+}
+
