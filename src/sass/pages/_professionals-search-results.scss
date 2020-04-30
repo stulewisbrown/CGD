@@ -7,6 +7,7 @@
 
 .freelancer-rating--professionals {
 	margin-bottom:0;
+  visibility: hidden;
 }
 
 .certification-container {
@@ -23,6 +24,18 @@
 .dropdown-menu.open {
   max-height: 303px; 
   overflow: hidden;
+}
+.freelancer-overview .freelancer-avatar img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    cursor: pointer;
+    max-width: unset;
+}
+
+.sidebar-search-button-container {
+    position: relative;
+    background-color: transparent;
 }
 
 
