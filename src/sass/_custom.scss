@@ -35,3 +35,152 @@
     }
 }
 
+//START Certificate styles
+
+.overview-info-list {
+  padding:0;
+  margin-bottom: 0;
+}
+.certbox {
+    background: #f7f7f7;
+    margin-bottom: 20px !important;
+    padding: 20px 0 0 !important;
+    border: 1px solid #d8d8d8;
+}
+
+.certbox .file-upload input {
+    height: 40px;
+}
+
+.certbox .file-upload .brws-btn {
+    height: 39px;
+    padding: 11px 16px;
+    font-size: 12px;
+}
+
+.acc-box-certs {
+    margin-top: 0 !important;
+}
+
+p.certnoticetext {
+    letter-spacing: 0;
+    font-size: 0.85em;
+    line-height: 20px;
+    padding: 10px !important;
+}
+
+a.addcert {
+    text-align: right;
+    margin-right: 5px;
+}
+
+.tab-content #accreditations { padding-right: 25px !important; padding-bottom: 0 !important; }
+
+.accred-cert li {
+    width: 100%;
+    list-style: none;
+    padding: 10px;
+    float: left;
+    border: 5px solid #65696b;
+}
+
+.certmaininfo {
+    text-align: center;
+}
+
+.certidinfo {
+    position: absolute;
+    bottom: 20px;
+}
+.certbrandimg img {
+    max-width: 100%;
+    width: 100px;
+    height: auto;
+}
+
+.certbrandimg {
+    position: absolute;
+    right: 15px;
+    bottom: 0px;
+}
+.accred-cert li .certinner {
+    border: 4px solid #5c7eb1;
+    padding: 40px 20px 20px;
+    height: 400px;
+    position: relative;
+}
+
+.accred-cert li .certmaintext {
+
+}
+
+.certproname {
+    font-size: 2em !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.accred-cert li .alibaba {
+    border: 4px solid #ff7519;
+}
+
+.accred-cert li .aws {
+    border: 4px solid #ff9900;
+}
+
+.accred-cert li .azure {
+    border: 4px solid  #008AD7;
+}
+
+.accred-cert li .certbrandcertified {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.accred-cert li .certname {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+.accred-cert li div {
+    font-size: 0.9em;
+}
+
+.accred-cert li div.certbrand { margin-bottom: 30px; color: #323d38; font-size: 1.2em; font-weight: 600; }
+.accred-cert li div.certid { color: #323d38; font-size: 0.8em; }
+.accred-cert li div.certvalid { color: #323d38; font-size: 0.8em; }
+
+.accred-cert figure.cert-file-uploaded { display: none; }
+
+figure.cert-file-uploaded img#certificate_file {
+    top: 7px !important;
+    height: auto;
+    max-width: 25px;
+    right: 13px !important;
+}
+
+.certbox a.remove_acc {
+    font-size: 12px !important;
+}
+
+.certbox a.remove_acc:hover {
+    font-weight: normal;
+}
+
+.certbox label.certs {
+    font-size: 13px !important;
+}
+
+.certwrap {
+    margin: 20px;
+    margin-top: 0;
+}
+
+.certwrap .col-sm-12 { padding: 0; }
+
+.certbox input, .certbox select {
+    font-size: 1em !important;
+}
+//END Certificate styles
