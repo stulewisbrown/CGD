@@ -244,3 +244,16 @@
     display: none;
   }
 }
+
+/* Custom section */
+
+.header-search-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header-search-box__input {
+  width: 50%;
+  margin-bottom: 0;
+}

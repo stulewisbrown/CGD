@@ -38,7 +38,7 @@
 //START Certificate styles
 
 .overview-info-list {
-  padding:0;
+  padding:20px;
   margin-bottom: 0;
 }
 .certbox {
@@ -184,3 +184,23 @@ figure.cert-file-uploaded img#certificate_file {
     font-size: 1em !important;
 }
 //END Certificate styles
+
+// Manage company pages
+
+a.button--small {
+  font-size: 14px;
+  padding: 2px 10px;
+}
+
+@include respond-below(sm) {
+  .team-list ul li {
+    display: block;
+}
+}
+
+.invite-members-left {
+
+      box-shadow: 0 3px 12px rgba(0,0,0,.1);
+    border-radius: 4px;
+}
+

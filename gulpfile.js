@@ -68,7 +68,7 @@ function js() {
     .pipe(order([
                 'js/jquery-3.4.1.min.js',
                 'js/jquery-migrate-3.1.0.min.js',
-                // 'js/bootstrap.js',
+                'js/bootstrap.js',
                 'js/mmenu.min.js',
                 'js/tippy.all.min.js',
                 'js/simplebar.min.js',

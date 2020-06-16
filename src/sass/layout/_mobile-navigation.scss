@@ -467,7 +467,7 @@ li.mm-vertical.mm-opened > .mm-panel {
   transition: -webkit-transform .4s ease;
   transition: transform .4s ease;
   transition: transform .4s ease, -webkit-transform .4s ease;
-  z-index: 1;
+  // z-index: 1;
 }
 
 html {

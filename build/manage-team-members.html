@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Template</title>
+    <!--#include virtual="/includes/head.html" -->
+</head>
+
+<body>
+    <!-- Wrapper -->
+    <div id="wrapper">
+        <!--#include virtual="/includes/nav.html" -->
+<div id="titlebar" class="gradient">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+
+				<h2>Manage your team members</h2>
+
+			</div>
+		</div>
+	</div>
+</div>
+        <!-- Container -->
+<div class="container">
+	<div class="row">
+
+		<div class="col-md-8">
+				<div class="invite-members-left mb-5 p-4">
+					<h3 class="mb-3">Add emails to invite to your team</h3>
+					<textarea class=""></textarea>
+					<input type="submit" class="submit button mb-2 margin-top-15" id="submit" value="Invite">
+				</div>
+		</div>
+		<div class="col-md-4">
+				<div class="contact-address invite-members-right">
+					<h3>Inviting your team</h3>
+					<p>Enter the email address(es) to send invitations to. Multiples can be separated by a new line, comma, or semicolon</p>
+				</div>
+		</div>
+
+		
+
+	</div><!-- Row / End -->
+	<div class="row">
+		<div class="col-md-8">
+		<div class="dashboard-box team-members mb-5">
+                        <div class="boxed-list-headline">
+                            <h3><i class="icon-feather-users"></i> Team Members</h3><input class="header-search-box__input" placeholder="Search">
+                        </div>
+                        <div class="content">
+                            <ul class="dashboard-box-list">
+                                <li>
+                                    <div class="invoice-list-item team-list">
+                                        <strong>Stu Brown</strong>
+                                        <ul>
+                                            <li><span class="paid">Accepted</span></li>
+                                            <li>Added: 12/08/2019</li>
+                                        </ul>
+                                    </div>
+                                    <!-- Buttons -->
+                                    <div class="buttons-to-right">
+                                        <a href="pages-checkout-page.html" class="button red">Remove</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="invoice-list-item team-list">
+                                        <strong>John Smith</strong>
+                                        <ul>
+                                            <li><span class="unpaid">Resend</span></li>
+                                            <li>Added: 12/08/2019</li>
+                                        </ul>
+                                    </div>
+                                    <!-- Buttons -->
+                                    <div class="buttons-to-right">
+                                        <a href="pages-checkout-page.html" class="button red">Remove</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+	</div><!-- Row / End -->
+</div>
+<!-- Container / End -->
+        <!--#include virtual="/includes/footer.html" -->
+    </div>
+    <!-- Wrapper / End -->
+    <!--#include virtual="/includes/scripts.html" -->
+</body>
+
+</html>
