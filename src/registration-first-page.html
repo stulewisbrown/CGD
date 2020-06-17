@@ -63,57 +63,6 @@
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="submit-field">
-                                        <h5>Job Title</h5>
-                                        <input type="text" class="with-border" placeholder="Cloud Developer">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="content">
-                    <ul class="fields-ul">
-                        <li>
-                            <div class="row">
-                                <div class="col-xl-6">
-                                    <div class="submit-field">
-                                        <div class="bidding-widget">
-                                            <!-- Headline -->
-                                            <span class="bidding-detail">Set your <strong>minimal hourly rate</strong></span>
-                                            <!-- Slider -->
-                                            <div class="bidding-value margin-bottom-10">$<span id="biddingVal"></span></div>
-                                            <input class="bidding-slider" type="text" value="" data-slider-handle="custom" data-slider-currency="$" data-slider-min="5" data-slider-max="150" data-slider-value="35" data-slider-step="1" data-slider-tooltip="hide" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="submit-field">
-                                        <h5>Skills <i class="help-icon" data-tippy-placement="right" title="Add up to 10 skills"></i></h5>
-                                        <!-- Skills List -->
-                                        <div class="keywords-container">
-                                            <div class="keyword-input-container">
-                                                <input type="text" class="keyword-input with-border" placeholder="e.g. Angular, Laravel" />
-                                                <button class="keyword-input-button ripple-effect"><i class="icon-material-outline-add"></i></button>
-                                            </div>
-                                            <div class="keywords-list">
-                                                <span class="keyword"><span class="keyword-remove"></span><span class="keyword-text">Angular</span></span>
-                                                <span class="keyword"><span class="keyword-remove"></span><span class="keyword-text">Vue JS</span></span>
-                                                <span class="keyword"><span class="keyword-remove"></span><span class="keyword-text">iOS</span></span>
-                                                <span class="keyword"><span class="keyword-remove"></span><span class="keyword-text">Android</span></span>
-                                                <span class="keyword"><span class="keyword-remove"></span><span class="keyword-text">Laravel</span></span>
-                                            </div>
-                                            <div class="clearfix"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="submit-field">
-                                        <h5>Tagline</h5>
-                                        <input type="text" class="with-border" placeholder="Experienced Developer">
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="submit-field">
                                         <h5>Country</h5>
                                         <select class="selectpicker with-border" data-size="7" title="Select Job Type" data-live-search="true">
                                             <option value="AR">Argentina</option>
@@ -207,6 +156,62 @@
                                         </select>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <ul class="fields-ul">
+                        <li class="pt-0">
+                            <div class="row">
+                                <div class="col-xl-6">
+                                    <div class="submit-field">
+                                        <h5>Job Title</h5>
+                                        <input type="text" class="with-border" placeholder="Cloud Developer">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="submit-field">
+                                        <h5>Tagline</h5>
+                                        <input type="text" class="with-border" placeholder="Experienced Developer">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <ul class="fields-ul">
+                        <li>
+                            <div class="row">
+                            	<div class="col-xl-6">
+                                    <!-- Account Type -->
+                                    <div class="submit-field">
+                                        <h5>Engagement Type</h5>
+                                        <div class="account-type">
+
+                                            <div>
+                                                <input type="radio" name="account-type-radio" id="freelancer-radio" class="account-type-radio" checked="">
+                                                <label for="freelancer-radio" class="ripple-effect-dark"><i class="icon-material-outline-account-circle"></i> Permanent</label>
+                                            </div>
+                                            <div>
+                                                <input type="radio" name="account-type-radio" id="employer-radio" class="account-type-radio">
+                                                <label for="employer-radio" class="ripple-effect-dark"><i class="icon-material-outline-business-center"></i> Contract</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="submit-field">
+                                        <div class="bidding-widget">
+                                            <!-- Headline -->
+                                            <span class="bidding-detail">Set your <strong>desired hourly rate</strong></span>
+                                            <!-- Slider -->
+                                            <div class="bidding-value margin-bottom-10">$<span id="biddingVal"></span></div>
+                                            <input class="bidding-slider" type="text" value="" data-slider-handle="custom" data-slider-currency="$" data-slider-min="5" data-slider-max="500" data-slider-value="35" data-slider-step="1" data-slider-tooltip="hide" />
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="col-xl-12">
                                     <div class="submit-field">
                                         <h5>Introduce Yourself</h5>
@@ -218,124 +223,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="dashboard-box">
-                <!-- Headline -->
-                <div class="headline">
-                    <h3><i class="icon-line-awesome-certificate"></i> Add certification</h3>
-                </div>
-                <div class="content with-padding padding-bottom-0">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="submit-field">
-                                <select class="selectpicker with-border" data-size="7" title="Select Vendor" data-live-search="true">
-                                    <option value="AR">Alibaba</option>
-                                    <option value="AM">AWS</option>
-                                    <option value="AW">Azure</option>
-                                    <option value="AU">Google</option>
-                                    <option value="AT">IBM Cloud</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="submit-field">
-                                <select class="selectpicker with-border" data-size="7" title="Certification" data-live-search="true">
-                                    <option value="AR">Alibaba</option>
-                                    <option value="AM">AWS</option>
-                                    <option value="AW">Azure</option>
-                                    <option value="AU">Google</option>
-                                    <option value="AT">IBM Cloud</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="submit-field">
-                                <input type="text" class="with-border" placeholder="Certification ID">
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="uploadButton margin-top-0">
-                                <input class="uploadButton-input" type="file" accept="image/*, application/pdf" id="upload" multiple />
-                                <label class="uploadButton-button ripple-effect" for="upload">Upload Certificate</label>
-                                <span class="uploadButton-file-name">Maximum file size: 10 MB</span>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <h5>Start Date</h5>
-                            <input type="date" id="birthday" name="birthday">
-                        </div>
-                        <div class="col-lg-6">
-                            <h5>End Date</h5>
-                            <input type="date" id="birthday" name="birthday">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="dashboard-box">
-                <!-- Headline -->
-                <div class="headline">
-                    <h3><i class="icon-line-awesome-pencil"></i> Add Expertise</h3>
-                </div>
-                <div class="content with-padding padding-bottom-0">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="submit-field">
-                                    <select class="selectpicker with-border" data-size="7" title="Category of Expertise" data-live-search="true">
-                                        <option value="AR">Alibaba</option>
-                                        <option value="AM">AWS</option>
-                                        <option value="AW">Azure</option>
-                                        <option value="AU">Google</option>
-                                        <option value="AT">IBM Cloud</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="submit-field">
-                                    <select class="selectpicker with-border" data-size="7" title="Skills" data-live-search="true">
-                                        <option value="AR">Alibaba</option>
-                                        <option value="AM">AWS</option>
-                                        <option value="AW">Azure</option>
-                                        <option value="AU">Google</option>
-                                        <option value="AT">IBM Cloud</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="submit-field">
-                                    <select class="selectpicker with-border" data-size="7" title="Industry Expertise" data-live-search="true">
-                                        <option value="AR">Alibaba</option>
-                                        <option value="AM">AWS</option>
-                                        <option value="AW">Azure</option>
-                                        <option value="AU">Google</option>
-                                        <option value="AT">IBM Cloud</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-xl-12">
-                                <div class="submit-field">
-                                    <h5>Vendor Expertise</h5>
-                                    <div class="vendor-expertise">
-                                        <a class="add_brand selected" href="#">
-                                            <img title="AWS" src="https://beta.cloudgurus.direct/theme/IctRated/images/brands/AWS-1565984170.png"></a>
-                                        <a class="add_brand selected" href="#">
-                                            <img title="Google" src="https://beta.cloudgurus.direct/theme/IctRated/images/brands/Google-1565983195.jpg"></a>
-                                        <a class="add_brand selected" href="#"><img title="Azure" src="https://beta.cloudgurus.direct/theme/IctRated/images/brands/Azure-1565989701.png"></a>
-                                        <a class="add_brand selected" href="#"><img title="Oracle" src="https://beta.cloudgurus.direct/theme/IctRated/images/brands/Oracle-Cloud-1564865753.jpg"></a>
-                                        <a class="add_brand" href="#"><img title="IBM Cloud" src="https://beta.cloudgurus.direct/theme/IctRated/images/brands/IBM-Cloud-1564931237.png"></a>
-                                        <a class="add_brand" href="#"><img title="Alibaba" src="https://beta.cloudgurus.direct/theme/IctRated/images/brands/Alibaba-1565346134.png"></a>
-                                        <a class="add_brand" href="#"><img title="OpenStack" src="https://beta.cloudgurus.direct/theme/IctRated/images/brands/OpenStack-1565983001.png"></a>
-                                        <a class="add_brand" href="#"><img title="VMware Cloud" src="https://beta.cloudgurus.direct/theme/IctRated/images/brands/VMware-Cloud-1565983268.jpg"></a>
-                                        <a class="add_brand" href="#"><img title="Yandex Cloud" src="https://beta.cloudgurus.direct/theme/IctRated/images/brands/Yandex-Cloud-1573455338.png"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    </ul>
-                </div>
-            </div>
         </div>
         <div class="col-md-3 mt-5 offset-md-2">
-            <button class="mb-5 button full-width button-sliding-icon ripple-effect margin-top-10" type="submit" form="login-form">Register <i class="icon-material-outline-arrow-right-alt"></i></button>
+            <button class="mb-5 button full-width button-sliding-icon ripple-effect margin-top-10" type="submit" form="login-form">Next <i class="icon-material-outline-arrow-right-alt"></i></button>
         </div>
     </div>
     <!-- Wrapper / End -->
