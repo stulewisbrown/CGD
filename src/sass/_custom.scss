@@ -203,4 +203,20 @@ a.button--small {
       box-shadow: 0 3px 12px rgba(0,0,0,.1);
     border-radius: 4px;
 }
+.vendor-expertise {
+  .add_brand {
+    display: inline-block;
+    margin: 10px 10px 0px 0px;
+      &.selected {
+        border: 2px solid;
+        border-radius: 3px;
+    }
+  }
 
+  img {
+    max-width: 100px;
+    max-height: 70px;
+    border: 1px solid #eee;
+    padding: 5px;
+  }
+}
