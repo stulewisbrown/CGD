@@ -6,7 +6,7 @@
 #navigation {
   position: relative;
   display: inline-block;
-  margin-top: $navigation-top-offset;
+  margin-top: 25px;
   ul {
     list-style: none;
     position: relative;
@@ -472,4 +472,7 @@ body #navigation ul ul {
   &.mm-panel:before {
     height: 10px !important;
   }
+}
+.nav-no-dropdown {
+  margin-top: 25px;
 }

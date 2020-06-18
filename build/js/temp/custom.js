@@ -1296,8 +1296,6 @@ $(document).ready(function(){
 		 fixedContentPos: false
 	});
 
-
-
 // ------------------ End Document ------------------ //
 });
 
