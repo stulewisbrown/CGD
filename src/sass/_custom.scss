@@ -3,7 +3,12 @@
 .logo-custom {
     position: relative;
 }
-
+.orange-text {
+  color:$secondary-color;
+}
+.orange {
+  background-color:$secondary-color;
+}
 
 
 @include respond-above(md) {
