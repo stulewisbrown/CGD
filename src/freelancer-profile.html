@@ -7,6 +7,33 @@
 </head>
 
 <body>
+	<!-- Modal HTML embedded directly into document -->
+<div id="ex1" class="modal">
+    <div class="container">
+        <ul class="overview-info-list row accred-cert">
+            <li class="certwrapper">
+                <div class="certinner google">
+                    <div class="certmaininfo">
+                        <div class="certbrand">Google</div>
+                        <div class="certmaintext">This acknowledges that</div>
+                        <div class="certproname">Lee Bailey</div>
+                        <div class="certmaintext">has successfully completed all the requirements to be recognized as a</div>
+                        <div class="certbrandcertified">Google certified</div>
+                        <div class="certname">Professional Collaboration Engineer</div>
+                    </div>
+                    <div class="certidinfo">
+                        <div class="certid">Certification ID: DNg6rc</div>
+                        <div class="certvalid">Valid until: 2021-12-10</div>
+                    </div>
+                    <div class="certbrandimg">
+                        <img src="/images/logos/vendors/aws.png" alt="Azure" title="Google" width="32" height="35">
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <a href="#" rel="modal:close">Close</a>
+</div>
     <!-- Wrapper -->
     <div id="wrapper">
         <!--#include virtual="/includes/nav.html" -->
@@ -227,7 +254,7 @@
                         <div class="sidebar-widget">
                             <h3>Certifications</h3>
                             <div class="attachments-container">
-                                <a href="#" id="myInput" class="attachment-box ripple-effect" data-toggle="modal" data-target="#exampleModal"><span>Certificate</span><i>AWS</i></a>
+                                <a href="#ex1" rel="modal:open" id="myInput" class="attachment-box ripple-effect"><span>Certificate</span><i>AWS</i></a>
                             </div>
                         </div>
                         <!-- Sidebar Widget -->
@@ -262,41 +289,11 @@
                 </div>
             </div>
         </div>
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                	<div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-                	<div class="container">
-                    <ul class="overview-info-list row accred-cert">
-                        <li class="certwrapper">
-                            <div class="certinner google">
-                                <div class="certmaininfo">
-                                    <div class="certbrand">Google</div>
-                                    <div class="certmaintext">This acknowledges that</div>
-                                    <div class="certproname">Lee Bailey</div>
-                                    <div class="certmaintext">has successfully completed all the requirements to be recognized as a</div>
-                                    <div class="certbrandcertified">Google certified</div>
-                                    <div class="certname">Professional Collaboration Engineer</div>
-                                </div>
-                                <div class="certidinfo">
-                                    <div class="certid">Certification ID: DNg6rc</div>
-                                    <div class="certvalid">Valid until: 2021-12-10</div>
-                                </div>
-                                <div class="certbrandimg">
-                                    <img src="/images/logos/vendors/aws.png" alt="Azure" title="Google" width="32" height="35">
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                </div>
-            </div>
-        </div>
+
+
+
+<!-- Link to open the modal -->
+<p><a href="#ex1" rel="modal:open">Open Modal</a></p>
         <!-- Spacer -->
         <div class="margin-top-15"></div>
         <!-- Spacer / End-->

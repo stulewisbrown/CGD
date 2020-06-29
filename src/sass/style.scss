@@ -95,6 +95,7 @@
 @import 'vendor/google-autocomplete';
 @import 'vendor/maps';
 @import 'vendor/leaflet-maps';
+@import 'custom/jquery-modal';
 
 
 /* -------------------------------------------------------------- */
@@ -132,7 +133,6 @@
 //additional
 @import "../../node_modules/bootstrap/scss/utilities/spacing";
 @import "../../node_modules/bootstrap/scss/buttons";
-@import "../../node_modules/bootstrap/scss/modal";
 
 
 /* -------------------------------------------------------------- */

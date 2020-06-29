@@ -71,6 +71,7 @@ function js() {
                 'js/bootstrap.js',
                 'js/mmenu.min.js',
                 'js/tippy.all.min.js',
+                'js/jquery.modal.min.js',
                 'js/simplebar.min.js',
                 'js/bootstrap-slider.min.js',
                 'js/bootstrap-select.min.js',
