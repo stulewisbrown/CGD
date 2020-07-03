@@ -2,18 +2,18 @@
 /* Default Colors
 ----------------------------------------------------------------- */
 // $primary-color: 							#2a41e8;
-$primary-color: 							#2a41e8;
+$primary-color: 							#170d85;
 $secondary-color:							#ff7c00 !important;
 $body-font-color:							#666;
-$body-heading-color:						#333;
+$body-heading-color:						#262d3d;;
 
 
 /* -------------------------------------------------------------- */
 /* Typography
 ----------------------------------------------------------------- */
-@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
 
-$primary-font: 								"Nunito", sans-serif;
+$primary-font: 								'Proxima Nova', sans-serif;
 $body-font-size: 							16px;
 $body-line-height: 							27px;
 $body-sub-line-height: 						26px;

@@ -10,15 +10,12 @@
   padding-right: 35px;
   margin-right: 20px;
   img {
-    height: $logo-height;
+    height: 25px;
     width: auto;
     top: 50%;
     position: relative;
     transform: translate3d(0, -50%, 0);
   }
-}
-.logo-regular {
-    border-right: 1px solid #e0e0e0;
 }
 
 
@@ -26,7 +23,7 @@
   position: relative;
   z-index: 999;
   padding: 0;
-  font-size: $body-font-size;
+  font-size: 18px;
   height: $header-height;
   background-color: #fff;
   .container, .right-side, .left-side {

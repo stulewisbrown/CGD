@@ -29,6 +29,14 @@
     }
 }
 
+a.button.homepage-button {
+    padding-right: 70px;
+    padding-left: 70px;
+        font-size: 20px;
+    line-height: 32px;
+    font-weight: bold;
+}
+
 @include respond-below(lg) {
   .logo-custom__desktop {
   	display:none;
@@ -195,6 +203,11 @@ figure.cert-file-uploaded img#certificate_file {
 a.button--small {
   font-size: 14px;
   padding: 2px 10px;
+  &--homepage {
+    font-size: 16px;
+    padding: 4px 15px;
+
+  }
 }
 
 @include respond-below(sm) {
@@ -225,5 +238,4 @@ a.button--small {
     padding: 5px;
   }
 }
-
 

@@ -6,6 +6,10 @@
     height: 15px;
     background-repeat: no-repeat;
     background-size: contain;
+    border-radius: 3px;
+}
+#logo > div > button {
+    background: transparent!important;
 }
 
 .country-picker {
@@ -14,7 +18,7 @@
     margin-right: 5px;
     width: 20px !important;
     height: 100%;
-    top: 0px;
+    top: 4px;
     .open .dropdown-menu {
         width: 300px !important;
     }

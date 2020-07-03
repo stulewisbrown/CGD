@@ -35,6 +35,8 @@
   height: 0;
 }
 
+
+
 .star-rating {
   .star.half {
     &:before {
@@ -71,5 +73,23 @@
     &:before {
       margin-right: 0;
     }
+  }
+}
+
+.star-rating--grey {
+  .star {
+      &:before {
+    color: #838383;
+
+  }
+  }
+  .star.half {
+    &:after {
+      color: #838383;
+    }
+  }
+  &:before {
+    background-color: #838383;
+
   }
 }

@@ -2065,6 +2065,8 @@ body {
   padding: 0;
   text-align: left;
   background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 html {

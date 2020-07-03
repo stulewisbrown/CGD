@@ -148,3 +148,19 @@
 //     width: calc(100% - 30px);
 //   }
 // }
+.company-homepage {
+border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.1);
+    transition: .3s;
+    display: block;
+    text-align: center;
+}
+
+.company-homepage:hover {
+    transform: translateY(-3px);
+  }
+
+  .company-homepage__img {
+    max-height: 100px;
+  }
+
